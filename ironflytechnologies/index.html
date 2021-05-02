@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./demo.css">
+    <script src="./dependency/d3.min.js"></script>
+    <script src="./dependency/moment.js"></script>
+    <script src="./dependency/moment-timezone-with-data.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Beta Version</h1>
+    <div id="demo">
+        <div class="tooltip"></div>
+        <div class="container">
+            <div class="current-time-display"></div>
+            <div class="interface-control-container">
+                <div>
+                    <input type="radio" name="chartInterface" value="static">
+                    <label for="chartInterface">Static</label>
+                </div>
+                <div class="rollingHour-container">
+                    <div>
+                        <input type="radio" name="chartInterface" value="rolling">
+                        <label for="chartInterface">Rolling</label>
+                    </div>
+                    <div>
+                        <input type="number" name="rollingHour" min="1" max="168" step="any">
+                        <label for="chartInterface">Hour(s)</label>
+                    </div>
+                </div>
+
+            </div>
+            <button class="reset-btn" type="button">
+                <img src="https://img.icons8.com/ios/24/000000/recurring-appointment.png" />
+            </button>
+            <button class="open-btn" type="button" onclick="toggleControl()">
+                <img src="https://img.icons8.com/ios/24/000000/settings.png">
+            </button>
+        </div>
+        <div class="control-panel">
+            <div class="control-container">
+                <button class="close-btn" type="button" onclick="toggleControl(true)">
+                    <img src="https://img.icons8.com/ios/24/000000/delete-sign.png" />
+                </button>
+                <div>
+                    <div>UTC</div>
+                    <select name="utcOffset"></select>
+                </div>
+                <div>
+                    <div>Filter</div>
+                    <input type="text" name="queryString">
+                    <div class="row"></div>
+                    <button class="reset-default-btn" type="button">Reset Default</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./demo.js"></script>
+</body>
+
+</html>

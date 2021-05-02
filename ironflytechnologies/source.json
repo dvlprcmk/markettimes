@@ -1,0 +1,579 @@
+{
+	"XASX": {
+		"timezone": "Australia/Sydney",
+		"country": "AU",
+		"city": "Sydney",
+		"name": "ASX - All Markets",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "07:00:00",
+					"timeEnd": "10:09:15",
+					"matchStart": "09:59:45",
+					"matchEnd": "10:09:15",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:59:45",
+					"timeEnd": "16:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "16:00:00",
+					"timeEnd": "16:10:00",
+					"matchStart": "16:10:00",
+					"matchEnd": "16:12:00"
+				}
+			},
+			"D-half": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "07:00:00",
+					"timeEnd": "10:09:15",
+					"matchStart": "09:59:45",
+					"matchEnd": "10:09:15",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:59:45",
+					"timeEnd": "14:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "14:00:00",
+					"timeEnd": "14:10:00",
+					"matchStart": "14:10:00",
+					"matchEnd": "14:12:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20200101, 20201225, 20200921],
+			"D": [20200606, 20200920],
+			"D-half": [20201224, 20201231, 20200922]
+		}
+	},
+	"XTAI": {
+		"timezone": "Asia/Taipei",
+		"country": "TW",
+		"city": "Taipei",
+		"name": "Taiwan Stock Exchange",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "08:30:00",
+					"timeEnd": "09:00:00",
+					"matchEnd": "09:00:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:00:00",
+					"timeEnd": "13:25:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "13:25:00",
+					"timeEnd": "13:30:00",
+					"matchEnd": "13:30:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20200101, 20200124],
+			"D": [20200620, 20200926]
+		}
+	},
+	"XNAS": {
+		"timezone": "America/New_York",
+		"country": "US",
+		"city": "New York",
+		"name": "NASDAQ - All Markets",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "04:00:00",
+					"timeEnd": "09:30:00",
+					"matchEnd": "09:30:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:30:00",
+					"timeEnd": "16:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "15:59:00",
+					"timeEnd": "16:00:00",
+					"matchEnd": "16:00:00"
+				},
+				"session3": {
+					"type": "afterHours",
+					"timeStart": "16:00:00",
+					"timeEnd": "20:00:00"
+				}
+			},
+			"D-half": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "06:30:00",
+					"timeEnd": "09:30:00",
+					"matchEnd": "09:30:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:30:00",
+					"timeEnd": "13:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "13:00:00",
+					"timeEnd": "13:00:00",
+					"matchEnd": "13:00:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20200410, 20200907],
+			"D-half": [20201127, 20201224]
+		}
+	},
+	"XLON": {
+		"timezone": "Europe/London",
+		"country": "GB",
+		"city": "London",
+		"name": "London Stock Exchange",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "07:00:00",
+					"timeEnd": "08:00:00",
+					"matchEnd": "08:00:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "08:00:00",
+					"timeEnd": "16:30:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "16:30:00",
+					"timeEnd": "16:35:00",
+					"matchEnd": "16:35:00"
+				}
+			},
+			"D-half": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "07:00:00",
+					"timeEnd": "08:00:00",
+					"matchStart": "08:00:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "08:00:00",
+					"timeEnd": "12:30:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "12:30:00",
+					"timeEnd": "12:35:00",
+					"matchEnd": "12:35:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20201224, 20201225],
+			"D-half": [20201231]
+		}
+	},
+	"XHKG": {
+		"timezone": "Asia/Hong_Kong",
+		"country": "HK",
+		"city": "Hong Kong",
+		"name": "Hong Kong Exchanges And Clearing Ltd",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "09:00:00",
+					"timeEnd": "09:30:00",
+					"matchEnd": "09:30:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:30:00",
+					"timeEnd": "12:00:00"
+				},
+				"session2": {
+					"type": "continuous",
+					"timeStart": "13:00:00",
+					"timeEnd": "16:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "16:00:00",
+					"timeEnd": "16:10:00",
+					"matchEnd": "16:10:00"
+				}
+			},
+			"D-half": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "09:00:00",
+					"timeEnd": "09:30:00",
+					"matchEnd": "09:30:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:30:00",
+					"timeEnd": "12:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "12:00:00",
+					"timeEnd": "12:10:00",
+					"matchEnd": "12:10:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20200410, 20201001],
+			"D-half": [20201204, 20201224]
+		}
+	},
+	"XFRA": {
+		"timezone": "Europe/Berlin",
+		"country": "DE",
+		"city": "Frankfurt",
+		"name": "Deutsche Boerse AG",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:30:00",
+					"timeEnd": "12:00:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20201224, 20201225, 20201231]
+		}
+	},
+	"XNSE": {
+		"timezone": "Asia/Kolkata",
+		"country": "IN",
+		"city": "Mumbai",
+		"name": "National Stock Exchange of India",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "09:00:00",
+					"timeEnd": "09:08:00",
+					"matchEnd": "09:08:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:15:00",
+					"timeEnd": "15:30:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "15:40:00",
+					"timeEnd": "16:00:00",
+					"matchEnd": "16:10:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20201130, 20201225]
+		}
+	},
+	"XJSE": {
+		"timezone": "Africa/Johannesburg",
+		"country": "ZA",
+		"city": "Johannesburg",
+		"name": "Johannesburg Stock Exchange",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "08:30:00",
+					"timeEnd": "09:00:00",
+					"matchEnd": "09:00:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:00:00",
+					"timeEnd": "17:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "17:00:00",
+					"timeEnd": "17:15:00",
+					"matchEnd": "17:15:00"
+				},
+				"session3": {
+					"type": "afterHours",
+					"timeStart": "17:15:00",
+					"timeEnd": "18:15:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20201224, 20201225]
+		}
+	},
+	"XSES": {
+		"timezone": "Asia/Singapore",
+		"country": "SG",
+		"city": "Singapore",
+		"name": "Singapore Exchange",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "08:30:00",
+					"timeEnd": "08:59:00",
+					"matchEnd": "08:59:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:00:00",
+					"timeEnd": "12:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "12:00:00",
+					"timeEnd": "12:59:00",
+					"matchEnd": "12:59:00"
+				},
+				"session2": {
+					"type": "continuous",
+					"timeStart": "13:00:00",
+					"timeEnd": "17:00:00"
+				},
+				"auction3": {
+					"type": "auction",
+					"timeStart": "17:00:00",
+					"timeEnd": "17:05:00",
+					"matchEnd": "17:05:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20201114, 20201225]
+		}
+	},
+	"XTSE": {
+		"timezone": "America/Toronto",
+		"country": "CA",
+		"city": "Toronto",
+		"name": "Toronto Stock Exchange",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "07:00:00",
+					"timeEnd": "09:30:00",
+					"matchEnd": "09:30:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:30:00",
+					"timeEnd": "16:00:00"
+				},
+				"auction2": {
+					"type": "auction",
+					"timeStart": "16:10:00",
+					"timeEnd": "17:00:00",
+					"matchEnd": "17:00:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20201224, 20201225]
+		}
+	},
+	"XKRX": {
+		"timezone": "Asia/Seoul",
+		"country": "KR",
+		"city": "Seoul",
+		"name": "Korea Stock Exchange",
+		"dayOfWeek": {
+			"0": null,
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": "D",
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "08:00:00",
+					"timeEnd": "09:00:00",
+					"matchEnd": "09:00:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "09:00:00",
+					"timeEnd": "15:30:00"
+				},
+				"session2": {
+					"type": "afterHours",
+					"timeStart": "15:40:00",
+					"timeEnd": "18:00:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20200410, 20201001]
+		}
+	},
+	"DIFX": {
+		"timezone": "Asia/Dubai",
+		"country": "AE",
+		"city": "Dubai",
+		"name": "NASDAQ Dubai",
+		"dayOfWeek": {
+			"0": "D",
+			"1": "D",
+			"2": "D",
+			"3": "D",
+			"4": "D",
+			"5": null,
+			"6": null
+		},
+		"definitions": {
+			"D": {
+				"auction1": {
+					"type": "auction",
+					"timeStart": "09:30:00",
+					"timeEnd": "09:55:00",
+					"matchStart": "09:55:00",
+					"matchEnd": "10:00:00",
+					"notes": ""
+				},
+				"session1": {
+					"type": "continuous",
+					"timeStart": "10:00:00",
+					"timeEnd": "14:00:00"
+				}
+			}
+		},
+		"specialDays": {
+			"_none": [20201202, 20201203]
+		}
+	}
+}

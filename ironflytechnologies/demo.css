@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 0 0 33.333333%;
+    position: relative;
+    max-width: 33.333333%;
+    width: 100%;
+}
+
+.open-btn, .close-btn, .reset-btn {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#demo {
+    position: relative;
+}
+
+.tooltip {
+    display: none;
+    position: fixed;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tooltip table tr td {
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+}
+
+.container .open-btn {
+    margin-left: auto;
+}
+
+.interface-control-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interface-control-container .rollingHour-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interface-control-container input[name=rollingHour] {
+    width: 50px;
+}
+
+.control-panel {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid black;
+    width: 0;
+    min-height: 250px;
+    transition: 350ms;
+    overflow-y: auto;
+}
+
+.control-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.control-container .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.control-container .reset-default-btn {
+    float: right;
+}
+
+.control-container input[name=queryString], .control-container input[name=rollingHour] {
+    width: 100%;
+}
+
+.y-axis g {
+    cursor: grab;
+}
+
+.y-axis g.grabbing {
+    cursor: grabbing;
+}
+
+@media screen and (max-width: 992px) {
+    .col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
